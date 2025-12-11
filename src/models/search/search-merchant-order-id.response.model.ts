@@ -1,0 +1,7 @@
+import type { SearchPayment } from "../search-payment.model";
+
+export interface SearchMerchantOrderIdResponseModel {
+    reasonCode: number;
+    reasonMessage: string;
+    payments: SearchPayment[];
+}

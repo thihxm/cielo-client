@@ -1,0 +1,9 @@
+import type { CustomerModel } from "../customer.model";
+import type { PaymentRequestModel } from "../payment.request.model";
+
+export interface TransactionCreditCardRequestModel {
+    merchantOrderId: string;
+    customer: CustomerModel;
+    payment: PaymentRequestModel;
+    [x: string]: any;
+}
