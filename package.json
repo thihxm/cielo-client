@@ -1,6 +1,6 @@
 {
     "name": "cielo-client",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Cliente para a API da Cielo em node.js",
     "main": "dist/index.js",
     "type": "module",
