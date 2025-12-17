@@ -1,7 +1,7 @@
 import { beforeAll, describe, expect, it } from "vitest";
-import type { SearchBinResponseModel } from "../src";
-import { Cielo, type CieloConstructor } from "./../src/cielo";
-import type { SearchBinRequestModel } from "./../src/models/search/search-bin.request.model";
+import type { SearchBinResponseModel } from "../src/index.js";
+import { Cielo, type CieloConstructor } from "./../src/cielo.js";
+import type { SearchBinRequestModel } from "./../src/models/search/search-bin.request.model.js";
 
 const cieloParams: CieloConstructor = {
     merchantId: "8937bd5b-9796-494d-9fe5-f76b3e4da633",

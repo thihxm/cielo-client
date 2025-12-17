@@ -1,12 +1,12 @@
 import type {
     EnumSequenceCriteria,
     EnumTypeFlowAnalysisFraud,
-} from "../../enums";
-import type { BrowserModel } from "./browser.model";
-import type { CartModel } from "./cart.model";
-import type { MerchantModel } from "./merchant.model";
-import type { ShippingModel } from "./shipping.model";
-import type { TravelModel } from "./travel.model";
+} from "../../enums.js";
+import type { BrowserModel } from "./browser.model.js";
+import type { CartModel } from "./cart.model.js";
+import type { MerchantModel } from "./merchant.model.js";
+import type { ShippingModel } from "./shipping.model.js";
+import type { TravelModel } from "./travel.model.js";
 
 export interface FraudAnalysisModel {
     /**

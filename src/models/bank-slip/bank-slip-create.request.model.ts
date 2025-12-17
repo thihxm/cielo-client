@@ -1,4 +1,4 @@
-import type { CustomerModel } from "../customer.model";
+import type { CustomerModel } from "../customer.model.js";
 
 export interface PaymentBankSlip {
     type: string;

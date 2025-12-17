@@ -1,5 +1,5 @@
-import type { AirlineDataModel, Link } from "../..";
-import type { CustomerModel } from "../customer.model";
+import type { AirlineDataModel, Link } from "../../index.js";
+import type { CustomerModel } from "../customer.model.js";
 
 export type PIXTransactionResponsePayment = {
     qrCode: {

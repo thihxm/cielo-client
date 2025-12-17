@@ -1,5 +1,5 @@
-import type { AddressModel } from "./../address.model";
-import type { Link } from "./../link-model";
+import type { AddressModel } from "./../address.model.js";
+import type { Link } from "./../link-model.js";
 
 export interface CustomerBankSlipResponse {
     name: string;

@@ -1,7 +1,7 @@
 import camelcaseKeys, { type ObjectLike } from "camelcase-keys";
 import * as winston from "winston";
 
-import type { CieloHttpClientOptions } from "../interface/cielo-options.interface";
+import type { CieloHttpClientOptions } from "../interface/cielo-options.interface.js";
 
 export class HttpClient {
     private logger: winston.Logger;

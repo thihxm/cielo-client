@@ -1,4 +1,4 @@
-import type { SearchPayment } from "../search-payment.model";
+import type { SearchPayment } from "../search-payment.model.js";
 
 export interface SearchMerchantOrderIdResponseModel {
     reasonCode: number;

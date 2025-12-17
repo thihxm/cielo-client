@@ -1,5 +1,5 @@
-import type { CustomerModel } from "./../customer.model";
-import type { EnumCardType, EnumBrands } from "../../enums";
+import type { EnumBrands, EnumCardType } from "../../enums.js";
+import type { CustomerModel } from "./../customer.model.js";
 
 export interface SimpleTransactionRequestDebitCard {
     cardNumber: string;

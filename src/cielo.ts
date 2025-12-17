@@ -1,12 +1,12 @@
-import { BankSlip } from "./class/bank-slip";
-import { Card } from "./class/cards";
-import { CreditCard } from "./class/creditcard";
-import { DebitCard } from "./class/debit-card";
-import { HttpClient } from "./class/http-client";
-import { PIX } from "./class/pix";
-import { Recurrent } from "./class/recurrent";
-import { Search } from "./class/search";
-import type { CieloHttpClientOptions } from "./interface/cielo-options.interface";
+import { BankSlip } from "./class/bank-slip.js";
+import { Card } from "./class/cards.js";
+import { CreditCard } from "./class/creditcard.js";
+import { DebitCard } from "./class/debit-card.js";
+import { HttpClient } from "./class/http-client.js";
+import { PIX } from "./class/pix.js";
+import { Recurrent } from "./class/recurrent.js";
+import { Search } from "./class/search.js";
+import type { CieloHttpClientOptions } from "./interface/cielo-options.interface.js";
 
 export interface CieloConstructor {
     merchantId: string;

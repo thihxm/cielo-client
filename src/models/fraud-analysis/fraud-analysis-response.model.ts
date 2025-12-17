@@ -1,5 +1,5 @@
-import type { EnumFraudAnalysisStatus } from "../../enums";
-import type { ReplyDataResponseModel } from "./replay-data.model";
+import type { EnumFraudAnalysisStatus } from "../../enums.js";
+import type { ReplyDataResponseModel } from "./replay-data.model.js";
 
 export interface FraudAnalysisResponseModel {
     id: string;

@@ -1,5 +1,4 @@
-import type { TransactionCreditCardResponseModel } from "./../models/credit-card/transaction-credit-card.response.model";
-import type { RecurrentPaymentSearchResponseModel } from "../models/recurrent-payment";
+import type { RecurrentPaymentSearchResponseModel } from "../models/recurrent-payment/index.js";
 import type {
     SearchBinRequestModel,
     SearchBinResponseModel,
@@ -9,8 +8,9 @@ import type {
     SearchTransactionMerchantOrderIdRequestModel,
     SearchTransactionPaymentIdRequestModel,
     SearchTransactionRecurrentPaymentIdRequestModel,
-} from "../models/search";
-import type { HttpClient } from "./http-client";
+} from "../models/search/index.js";
+import type { TransactionCreditCardResponseModel } from "./../models/credit-card/transaction-credit-card.response.model.js";
+import type { HttpClient } from "./http-client.js";
 
 export class Search {
     constructor(private httpClient: HttpClient) {}

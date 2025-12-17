@@ -1,4 +1,4 @@
-import type { EnumBrands } from "../../enums";
+import type { EnumBrands } from "../../enums.js";
 
 export interface TokenizeRequestModel {
     customerName: string;

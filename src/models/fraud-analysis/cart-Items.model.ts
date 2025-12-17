@@ -6,7 +6,7 @@ import type {
     EnumCartPhoneHedge,
     EnumCartType,
     EnumCartVelocityHedge,
-} from "../../enums";
+} from "../../enums.js";
 
 export interface CartItemsModel {
     /**

@@ -17,7 +17,7 @@ import {
     EnumTravelPassengersRating,
     EnumTravelPassengersStatus,
     EnumTypeFlowAnalysisFraud,
-} from "../src/enums";
+} from "../src/enums.js";
 import {
     type CancelTransactionRequestModel,
     type CancelTransactionResponseModel,
@@ -29,8 +29,8 @@ import {
     type SearchTransactionPaymentIdRequestModel,
     type TransactionCreditCardRequestModel,
     type TransactionCreditCardResponseModel,
-} from "../src/index";
-import type { CaptureRequestModel } from "./../src/models/credit-card/capture.request.model";
+} from "../src/index.js";
+import type { CaptureRequestModel } from "./../src/models/credit-card/capture.request.model.js";
 
 const regexToken = new RegExp(/^\w{8}-\w{4}-\w{4}-\w{4}-\w{12}$/);
 const brands = [

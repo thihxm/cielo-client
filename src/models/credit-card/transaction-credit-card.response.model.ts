@@ -1,5 +1,5 @@
-import type { PaymentResponseModel } from "./../payment.response.model";
-import type { CustomerModel } from "./../customer.model";
+import type { CustomerModel } from "./../customer.model.js";
+import type { PaymentResponseModel } from "./../payment.response.model.js";
 
 export interface TransactionCreditCardResponseModel {
     merchantOrderId: string;

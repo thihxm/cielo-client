@@ -1,4 +1,4 @@
-import type { Link } from "../link-model";
+import type { Link } from "../link-model.js";
 
 export interface PIXCancelTransactionResponseModel {
     status: number;
