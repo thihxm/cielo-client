@@ -1,10 +1,10 @@
 import { beforeAll, describe, expect, it } from "vitest";
 
-import { Cielo, type CieloConstructor } from "../src/index";
+import { Cielo, type CieloConstructor } from "../src/index.js";
 import type {
     PIXTransactionRequestModel,
     PIXTransactionResponseModel,
-} from "../src/models/pix/index";
+} from "../src/models/pix/index.js";
 
 const regexToken = new RegExp(/^\w{8}-\w{4}-\w{4}-\w{4}-\w{12}$/);
 

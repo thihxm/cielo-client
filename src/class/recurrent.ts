@@ -1,4 +1,7 @@
-import type { CustomerModel, PaymentRecurrentModifyModel } from "../models";
+import type {
+    CustomerModel,
+    PaymentRecurrentModifyModel,
+} from "../models/index.js";
 import type {
     RecurrentCreateModel,
     RecurrentCreateResponse,
@@ -9,9 +12,9 @@ import type {
     RecurrentModifyIntervalModel,
     RecurrentModifyModel,
     RecurrentModifyNextPaymentDateModel,
-} from "../models/recurrent-payment";
-import type { RecurrentModifyPaymentModel } from "../models/recurrent-payment/recurrent-modify-payment.model";
-import type { HttpClient, IHttpResponse } from "./http-client";
+} from "../models/recurrent-payment/index.js";
+import type { RecurrentModifyPaymentModel } from "../models/recurrent-payment/recurrent-modify-payment.model.js";
+import type { HttpClient, IHttpResponse } from "./http-client.js";
 
 export class Recurrent {
     constructor(private httpClient: HttpClient) {}

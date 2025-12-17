@@ -1,10 +1,10 @@
-import type { CancelTransactionResponseModel } from "../models/credit-card/cancel-transaction.response.model";
+import type { CancelTransactionResponseModel } from "../models/credit-card/cancel-transaction.response.model.js";
 import type {
     PIXCancelTransactionRequestModel,
     PIXTransactionRequestModel,
     PIXTransactionResponseModel,
-} from "../models/pix";
-import type { HttpClient } from "./http-client";
+} from "../models/pix/index.js";
+import type { HttpClient } from "./http-client.js";
 
 export class PIX {
     constructor(private httpClient: HttpClient) {}

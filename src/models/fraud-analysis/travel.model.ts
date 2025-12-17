@@ -1,5 +1,5 @@
-import type { EnumTravelJourneyType } from "../../enums";
-import type { TravelPassengersModel } from "./travel-passengers.model";
+import type { EnumTravelJourneyType } from "../../enums.js";
+import type { TravelPassengersModel } from "./travel-passengers.model.js";
 
 export interface TravelModel {
     /**

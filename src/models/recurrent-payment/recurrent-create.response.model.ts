@@ -1,5 +1,5 @@
-import type { CreditCardModel } from "../credit-card.model";
-import type { Link } from "../link-model";
+import type { CreditCardModel } from "../credit-card.model.js";
+import type { Link } from "../link-model.js";
 
 export interface Customer {
     name: string;

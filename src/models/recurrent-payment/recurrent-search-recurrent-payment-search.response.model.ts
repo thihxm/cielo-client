@@ -1,5 +1,5 @@
-import type { Link } from "../link-model";
-import type { RecurrentTransaction } from "../recurrent-trasaction.model";
+import type { Link } from "../link-model.js";
+import type { RecurrentTransaction } from "../recurrent-trasaction.model.js";
 
 export interface RecurrentSearchRecurrentPaymentSearchResponseModel {
     recurrentPaymentId: string;

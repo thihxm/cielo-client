@@ -1,2 +1,2 @@
-export * from "./debit-card-simple-transaction.request.model";
-export * from "./debit-card-simple-transaction.response.model";
+export * from "./debit-card-simple-transaction.request.model.js";
+export * from "./debit-card-simple-transaction.response.model.js";

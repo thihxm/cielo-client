@@ -1,5 +1,5 @@
-import type { CardOnFileModel } from "./card-on-file.model";
-import type { EnumBrands } from "../enums";
+import type { EnumBrands } from "../enums.js";
+import type { CardOnFileModel } from "./card-on-file.model.js";
 
 export interface CreditCardModel {
     /**

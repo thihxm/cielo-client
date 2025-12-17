@@ -1,6 +1,6 @@
-import type { TokenizeRequestModel } from "../models/card/tokenize.request.model";
-import type { TokenizeResponseModel } from "../models/card/tokenize.response.model";
-import type { HttpClient } from "./http-client";
+import type { TokenizeRequestModel } from "../models/card/tokenize.request.model.js";
+import type { TokenizeResponseModel } from "../models/card/tokenize.response.model.js";
+import type { HttpClient } from "./http-client.js";
 
 export class Card {
     constructor(private httpClient: HttpClient) {}

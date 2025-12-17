@@ -1,4 +1,4 @@
-import type { EnumRecurrentPaymentInterval } from "../../enums";
+import type { EnumRecurrentPaymentInterval } from "../../enums.js";
 
 export interface RecurrentPaymentModel {
     authorizeNow?: boolean;

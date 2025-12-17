@@ -1,4 +1,4 @@
-import type { AddressModel } from "./address.model";
+import type { AddressModel } from "./address.model.js";
 
 export interface CustomerModel {
     /**

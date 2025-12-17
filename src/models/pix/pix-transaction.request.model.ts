@@ -1,6 +1,6 @@
-import type { WithRequired } from "../../utils/types";
-import type { CustomerModel } from "../customer.model";
-import type { PaymentRequestModel } from "../payment.request.model";
+import type { WithRequired } from "../../utils/types.js";
+import type { CustomerModel } from "../customer.model.js";
+import type { PaymentRequestModel } from "../payment.request.model.js";
 
 export type PIXTransactionRequestPayment = Omit<
     PaymentRequestModel,

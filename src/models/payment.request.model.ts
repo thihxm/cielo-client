@@ -1,8 +1,8 @@
-import type { AirlineDataModel } from "./airline-data.model";
-import type { CreditCardModel } from "./credit-card.model";
-import type { EnumPaymentInterest, EnumCardType } from "../enums";
-import type { RecurrentPaymentModel } from "./recurrent-payment";
-import type { FraudAnalysisModel } from "./fraud-analysis/fraud-analysis.model";
+import type { EnumCardType, EnumPaymentInterest } from "../enums.js";
+import type { AirlineDataModel } from "./airline-data.model.js";
+import type { CreditCardModel } from "./credit-card.model.js";
+import type { FraudAnalysisModel } from "./fraud-analysis/fraud-analysis.model.js";
+import type { RecurrentPaymentModel } from "./recurrent-payment/index.js";
 
 export interface PaymentRequestModel {
     /**

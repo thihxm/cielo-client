@@ -1,4 +1,4 @@
-import type { CartItemsModel } from "./cart-Items.model";
+import type { CartItemsModel } from "./cart-Items.model.js";
 
 export interface CartModel {
     /**

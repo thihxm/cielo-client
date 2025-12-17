@@ -1,14 +1,14 @@
 import { beforeAll, describe, expect, it } from "vitest";
+import { type EnumBrands, EnumCardType } from "../src/enums.js";
 import type {
     SearchTokenResponseModel,
     TokenizeResponseModel,
     TransactionCreditCardResponseModel,
-} from "../src";
-import { Cielo, type CieloConstructor } from "./../src/cielo";
-import { type EnumBrands, EnumCardType } from "../src/enums";
-import type { TokenizeRequestModel } from "../src/models/card/tokenize.request.model";
-import type { TransactionCreditCardRequestModel } from "../src/models/credit-card/transaction-credit-card.request.model";
-import type { SearchTokenRequestModel } from "../src/models/search/search-token.request.model";
+} from "../src/index.js";
+import type { TokenizeRequestModel } from "../src/models/card/tokenize.request.model.js";
+import type { TransactionCreditCardRequestModel } from "../src/models/credit-card/transaction-credit-card.request.model.js";
+import type { SearchTokenRequestModel } from "../src/models/search/search-token.request.model.js";
+import { Cielo, type CieloConstructor } from "./../src/cielo.js";
 
 const regexToken = new RegExp(/^\w{8}-\w{4}-\w{4}-\w{4}-\w{12}$/);
 const brands = [

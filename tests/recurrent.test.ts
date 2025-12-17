@@ -1,5 +1,5 @@
 import { beforeAll, describe, expect, it } from "vitest";
-
+import { EnumBrands, EnumCardType } from "../src/enums.js";
 import {
     Cielo,
     type CieloConstructor,
@@ -14,12 +14,11 @@ import {
     type RecurrentModifyNextPaymentDateModel,
     type RecurrentPaymentSearchResponseModel,
     type SearchTransactionRecurrentPaymentIdRequestModel,
-} from "../src";
+} from "../src/index.js";
 import {
     EnumRecurrentPaymentInterval,
     EnumRecurrentPaymentUpdateInterval,
-} from "./../src/enums";
-import { EnumBrands, EnumCardType } from "../src/enums";
+} from "./../src/enums.js";
 
 const cieloParams: CieloConstructor = {
     merchantId: "8937bd5b-9796-494d-9fe5-f76b3e4da633",

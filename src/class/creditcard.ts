@@ -4,9 +4,9 @@ import type {
     CaptureResponseModel,
     TransactionCreditCardRequestModel,
     TransactionCreditCardResponseModel,
-} from "../models/credit-card";
-import type { CancelTransactionResponseModel } from "./../models/credit-card/cancel-transaction.response.model";
-import type { HttpClient } from "./http-client";
+} from "../models/credit-card/index.js";
+import type { CancelTransactionResponseModel } from "./../models/credit-card/cancel-transaction.response.model.js";
+import type { HttpClient } from "./http-client.js";
 
 export class CreditCard {
     constructor(private httpClient: HttpClient) {}

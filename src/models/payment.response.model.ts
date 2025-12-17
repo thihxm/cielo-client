@@ -1,7 +1,7 @@
-import type { AirlineDataModel } from "./airline-data.model";
-import type { CreditCardModel } from "./credit-card.model";
-import type { FraudAnalysisResponseModel } from "./fraud-analysis/fraud-analysis-response.model";
-import type { Link } from "./link-model";
+import type { AirlineDataModel } from "./airline-data.model.js";
+import type { CreditCardModel } from "./credit-card.model.js";
+import type { FraudAnalysisResponseModel } from "./fraud-analysis/fraud-analysis-response.model.js";
+import type { Link } from "./link-model.js";
 
 export interface PaymentResponseModel {
     serviceTaxAmount: number;

@@ -1,11 +1,10 @@
 import { beforeAll, describe, expect, it } from "vitest";
-
+import { EnumBrands, EnumCardType } from "../src/enums.js";
 import type {
     DebitCardSimpleTransactionRequestModel,
     DebitCardSimpleTransactionResponseModel,
-} from "../src";
-import { Cielo, type CieloConstructor } from "./../src/cielo";
-import { EnumBrands, EnumCardType } from "../src/enums";
+} from "../src/index.js";
+import { Cielo, type CieloConstructor } from "./../src/cielo.js";
 
 const regexToken = new RegExp(/^\w{8}-\w{4}-\w{4}-\w{4}-\w{12}$/);
 

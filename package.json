@@ -1,39 +1,54 @@
 {
-	"name": "cielo-client",
-	"version": "1.0.0",
-	"description": "Cliente para a API da Cielo em node.js",
-	"main": "dist/index.js",
-	"scripts": {
-		"test": "vitest --reporter=tree",
-		"test:run": "vitest run",
-		"test:coverage": "vitest run --coverage",
-		"build": "tsgo",
-		"check-types": "tsgo --noEmit"
-	},
-	"keywords": [],
-	"author": "thihxm",
-	"license": "MIT",
-	"packageManager": "pnpm@10.14.0",
-	"devDependencies": {
-		"@biomejs/biome": "2.3.8",
-		"@commitlint/cli": "^20.2.0",
-		"@commitlint/config-conventional": "^20.2.0",
-		"@types/node": "^25.0.0",
-		"@typescript/native-preview": "7.0.0-dev.20251210.1",
-		"cz-conventional-changelog": "^3.3.0",
-		"vitest": "^4.0.15"
-	},
-	"dependencies": {
-		"camelcase-keys": "^10.0.1",
-		"husky": "^9.1.7",
-		"winston": "^3.19.0"
-	},
-	"bugs": {
-		"url": "https://github.com/thihxm/cielo-client/issues"
-	},
-	"husky": {
-		"hooks": {
-			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-		}
-	}
+    "name": "cielo-client",
+    "version": "1.0.1",
+    "description": "Cliente para a API da Cielo em node.js",
+    "main": "dist/index.js",
+    "type": "module",
+    "types": "dist/index.d.ts",
+    "module": "dist/index.js",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "default": "./dist/index.js"
+        }
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "sideEffects": false,
+    "scripts": {
+        "test": "vitest --reporter=tree",
+        "test:run": "vitest run",
+        "test:coverage": "vitest run --coverage",
+        "build": "tsgo",
+        "check-types": "tsgo --noEmit"
+    },
+    "keywords": [],
+    "author": "thihxm",
+    "license": "MIT",
+    "packageManager": "pnpm@10.14.0",
+    "devDependencies": {
+        "@biomejs/biome": "2.3.8",
+        "@commitlint/cli": "^20.2.0",
+        "@commitlint/config-conventional": "^20.2.0",
+        "@types/node": "^25.0.0",
+        "@typescript/native-preview": "7.0.0-dev.20251210.1",
+        "cz-conventional-changelog": "^3.3.0",
+        "vitest": "^4.0.15"
+    },
+    "dependencies": {
+        "camelcase-keys": "^10.0.1",
+        "husky": "^9.1.7",
+        "winston": "^3.19.0"
+    },
+    "bugs": {
+        "url": "https://github.com/thihxm/cielo-client/issues"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
+    }
 }

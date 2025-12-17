@@ -5,7 +5,7 @@ import {
     type BankSlipCreateResponseModel,
     Cielo,
     type CieloConstructor,
-} from "../src";
+} from "../src/index.js";
 
 const cieloParams: CieloConstructor = {
     merchantId: "8937bd5b-9796-494d-9fe5-f76b3e4da633",

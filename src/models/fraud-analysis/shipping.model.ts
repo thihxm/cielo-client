@@ -1,4 +1,4 @@
-import type { EnumShippingMethod } from "../../enums";
+import type { EnumShippingMethod } from "../../enums.js";
 
 export interface ShippingModel {
     /**

@@ -1,8 +1,8 @@
 import type {
     EnumTravelPassengersRating,
     EnumTravelPassengersStatus,
-} from "../../enums";
-import type { TravelLegsModel } from "./travel-legs.model";
+} from "../../enums.js";
+import type { TravelLegsModel } from "./travel-legs.model.js";
 
 export interface TravelPassengersModel {
     /**
